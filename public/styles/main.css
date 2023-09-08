@@ -1,0 +1,133 @@
+body{
+    background-color:	#bbe4e9;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container{
+    margin:  40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    
+}
+.container h2{
+    padding: 13px 73px;
+    background: #79c2d0;
+    border-radius: 11px;
+    width: 258px;
+    text-align: center;
+}
+.container #heading-h1{
+    margin-top: 11px;
+    font-size: 80px;
+    height: 50px;
+  
+}
+.container .task-list{
+    width: 400px;
+
+    background-color: aliceblue;
+    border-radius: 11px;
+    margin: 10px;
+
+}
+.container .task-list #list-p input{
+ 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* .container .task-list #list-p input:checked{
+ 
+    margin-right: 100px;
+    margin-left: 100px;
+} */
+.container .task-list h1{
+    text-align: center;
+
+}
+
+.todo-form #task-id{
+    font-family: 'Abel', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    border: transparent;
+    border-radius: 11px;
+    text-align: center;
+    height: 47px;
+    width: 188px;
+    font-size: 30px;
+
+}
+.todo-form #submit-button{
+    position: relative;
+    height: 29.5px;
+    margin: -4px;
+    top: 0.5px;
+    border: transparent;
+    height: 45px;
+    position: relative;
+    top: 7px;
+    width: 46px;
+    font-size: 41px;
+    left: 15px;
+    border-radius: 43px;
+}
+
+.checked-cls{
+    font-style: italic;
+}
+
+.containertask-list #list-p p #p1{
+    color: red;
+}
+.p1{
+    color: red;
+}
+
+.checked-abc{
+    text-decoration:line-through;
+}
+input.abc{
+    
+    border: 1px solid;
+    border-radius: 20px;;
+}
+.task-list #task-p{
+    text-decoration: overline;
+}
+
+.delete-form{
+    margin-top: 10px;
+}
+
+.delete-form #del-id{
+    font-family: 'Abel', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    border: transparent;
+    border-radius: 11px;
+    text-align: center;
+    height: 47px;
+    width: 188px;
+    font-size: 30px;
+
+}
+.delete-form #delete-button{
+    position: relative;
+    height: 29.5px;
+    margin: -4px;
+    top: 0.5px;
+    border: transparent;
+    height: 45px;
+    position: relative;
+    top: 2px;
+    width: 46px;
+    font-size: 30px;
+    left: 15px;
+    border-radius: 43px;
+}
+#footer{
+    text-align: center;
+    position: relative;
+    top: 12rem;
+}
